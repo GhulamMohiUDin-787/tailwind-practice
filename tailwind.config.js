@@ -6,6 +6,7 @@ module.exports = {
        colors: {
         basit: "black",
         secondary: '#facc15',
+        zain: "#80aa2c",
       },
     },
   },
