@@ -1,12 +1,21 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./*.{html,js}"], // Adjust this to match your project's structure
+  content: ["./*.{html,js}"],
   theme: {
     extend: {
-       colors: {
+      colors: {
         basit: "black",
-        secondary: '#facc15',
+        secondary: "#facc15",
         zain: "#80aa2c",
+        olivie: "#6B8E23",
+        primary: "#2563eb",
+      },
+      screens: {
+        ssm: "30rem",
+        laptop: "1024px",
+        desktop: "1280px",
+        wide: "1536px",
+        xm: "112rem",
       },
     },
   },
